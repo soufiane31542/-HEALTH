@@ -1,0 +1,280 @@
+
+.hr{
+    margin: 0 120px 0 120px;
+
+}
+.nav1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon a{ 
+   margin-left: 15px;
+}
+#spn{
+    color: blue;
+    border: 3px blue solid;
+    border-top-left-radius: 50px;border-bottom-left-radius: 50px;
+    
+}
+#spn2{
+    color: white;
+    border: 3px blue solid;
+    background-color: blue;
+    border-top-right-radius: 50px;border-bottom-right-radius: 50px;
+    
+}
+#spn,#spn2{
+    margin-left: 5px;
+    
+    
+}
+#search{
+    width: 200px;
+    border: 0;
+    border-radius: 50px;
+    margin-top: 3.8px;margin-left: 4px;
+    outline-color: white;
+    
+    
+
+}
+.ze{
+    width: 360px;height: 25px;
+    border-radius:50px;
+    border: 2px cornflowerblue solid;
+    
+    
+}
+.ze a{
+    float: right;
+    margin-right: 8px;margin-top: 2px;
+    
+}
+.hr2{
+    margin: 0 300px 0 300px;
+
+}
+
+.nav2 ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    list-style: none;
+    
+    
+}
+
+.nav2 ul li a,select{
+    text-decoration: none;
+    color: black;
+}
+
+.nav2 li{
+    position: relative;
+    
+}
+.nav2 li::after{
+    content: "";
+    position: absolute;
+    background: blue;
+    left: 0;bottom: 0;
+    width: 100%;height: 4px;
+    opacity: 0;
+    transition: .3s ease;
+}
+.nav2 li:hover::after{
+    opacity: 1;
+    transform: translateY(8px);
+}
+
+.nav2 ul li select{
+    border: none;
+    background-color: white;
+    font-size: 15px;
+}
+.total{
+    display: flex;
+    margin: 40px 0 0 120px;
+    
+}
+.total img{
+    margin-left: 25px;
+    border-radius: 10px;
+}
+.rt{
+    width: 300px;
+    text-align: center;
+    position: absolute;
+    top: 122%;
+    left: 20%;
+    
+}
+.rt h2{
+    font-size: 35px;
+}
+.rt input{
+    width: 250Px;
+    height: 20px;
+    text-align: center;
+}
+.rt button{
+    width: 100px;
+    height: 30px;
+    background-color: skyblue;
+    border: 1px skyblue solid;
+    border-radius: 5px;
+}
+
+.sec1{
+    width: 100%;
+}
+.total2{
+    text-align: center;
+    margin: 45px 0 45px 0;
+}
+.total2 .tt1{
+    color: blue;
+    font-size: 20px;
+}
+.total2 .tt2{
+    margin: 20px 0 20px 0;
+    
+}
+.total2 .tt2 img{
+    border: 1px solid gray;
+    margin: 0 15px 0 0;
+}
+
+.total2 .tt3 button{
+    width: 200px;height: 40px;
+    color: wheat;
+    background-color: blue;
+    border-radius: 50px;
+    border-color: white;
+}
+.total3{
+    margin: 0 0 60px 0;
+}
+.total3 .photo1{
+   margin: 100px 35px 0 0;
+}
+.total3 .para1{
+    margin: 0 35px 0 60px;
+}
+.total3 .para1 h2{
+   color: blue;
+}
+
+.total4{
+    text-align: center;
+    margin: 0 125px 0 125px;
+}
+.mintotal4{
+    display: flex;
+   
+}
+.mintotal4 p{
+    font-size: 12px;
+   
+}
+.total4 .ff1,.mintotal4{
+    margin: 60px 0 60px 0;
+}
+.mintotal4 div{
+    margin-left: 25px;
+}
+.ff1 h2{
+    position: relative;
+}
+.ff1 h2::after{
+    content: "";
+    position: absolute;
+    background: blue;
+    /* left: 40%; */left: 479px;
+    bottom: 0;
+    width: 13%;height: 4px;
+    opacity: 0;
+    transition: .3s ease;
+}
+.ff1 h2:hover::after{
+    opacity: 1;
+    transform: translateY(8px);
+}
+
+.sec3{
+    background-image: url(./images/v996-008.jpg);
+    height: 130px;
+    /* margin: 0 40px 0 40px; */
+}
+.total5{
+    text-align: center;
+    
+
+}
+.total5 h2{
+    color: blue;
+}
+.total5 button{
+    width: 250px;height: 30px;
+    border-radius: 50px;
+    margin: 10px 0 0 170px;
+    color: blue;
+    border: blue 1px solid;
+}
+
+
+.footer{
+    /* margin: 0 40px 0 40px; */
+    padding: 30px 0 10px 30px;
+    background-color:#078ABF ;
+    
+
+}
+.all{
+    text-align: center;
+    margin-bottom: 30px;
+ 
+}
+.tot1{
+    display: flex;
+    justify-content: space-between;
+}
+.tot1 div{
+    text-align: left;
+    width: 220px;
+    margin: 0 55px 0 55px;
+}
+.tot1 ul{
+    list-style: none;
+    display: contents;
+    
+}
+.tot1 a{
+    text-decoration: none;
+    color: wheat;
+}
+.end .all h2{
+    color: wheat;
+}
+.end .all p{
+    color: wheat;
+}
+   
+.visa{
+    
+    margin-left: 70%
+    
+}
+.visa img{
+    margin-left: 10px;
+}
+.copy{
+    text-align: center;
+    color: wheat;
+    
+}
+
+
+
+
